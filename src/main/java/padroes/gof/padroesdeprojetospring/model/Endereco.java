@@ -1,5 +1,6 @@
 package padroes.gof.padroesdeprojetospring.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
  //Os atributos desse modelo foram gerados automaticamente pelo site
@@ -7,6 +8,7 @@ import jakarta.persistence.Id;
  //https://www.jsonschema2pojo.org">jsonschema2pojo.org
  //https://viacep.com.br">ViaCEP
 
+@Entity
 public class Endereco {
 
     @Id
